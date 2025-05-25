@@ -16,6 +16,7 @@
 # 使用ツール
 - cdk コマンドを使用するときは、`npx cdk`のように、コマンドの前に`npx`を付ける、ことをprojectBrief.md ファイルに書く
 - cfn-lint コマンドは、`.venv/bin/cfn-lint`に保存してある、ことをprojectBrief.md ファイルに書く
+  または「cfn-lint は venvを使用した仮想環境内にあります。`. .venv/bin/activate` を実行して仮想環境に入ってから cfn-lint を使用してください」
 
 # cline セットアップ
 1. .clinerules/01-memory-bank.mdファイルを作り、[Cline Memory Bank](https://docs.cline.bot/prompting/cline-memory-bank)の「Cline Memory Bank Custom Instructions COPY THIS」をコピペする
